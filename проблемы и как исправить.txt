@@ -1,0 +1,4 @@
+//датасет из National Centers for Environmental Information (national oceanic and atmospheric administration)
+ссылка на API: https://www.ncei.noaa.gov/support/access-data-service-api-user-documentation
+в датасете логирование не посекундно - искать подходящие датасеты
+логирование времени в файл занимает лишнее время (вроде в среднем лишние 4 секунды) и поэтому результаты записи датасета в бд немного искаженные(на время записи в файл) - не логировать? или логировать средствами БД?
